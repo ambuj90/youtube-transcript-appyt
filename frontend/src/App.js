@@ -5,7 +5,7 @@ import { jsPDF } from "jspdf";
 import { Button, TextField, Select, MenuItem, Typography, Box, Paper, Switch, FormControl, InputLabel } from "@mui/material";
 
 // Dynamically set backend URL for both local & live
-const BASE_URL = "http://localhost:5000";
+const BASE_URL = "https://youtube-transcript-app-n38r.onrender.com";
 
 // Function to Start and Stop Speech
 const speakText = (text) => {
